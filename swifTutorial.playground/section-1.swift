@@ -4,7 +4,7 @@ var totalTeam = tutoriaTeam + editorialTeam
 
 totalTeam += 1
 let priceIntInferred = -19
-let priceIntExplicit:Double = -19
+let priceIntExplicit:Int = -19
 
 let priceInferred = -19.99
 let priceExplicit:Double = -19.99
@@ -19,6 +19,7 @@ let nameInferred = "Whoopie Cushion"
 let nameExplicit:String = "Whoopie Cushion"
 
 
+//Array
 var shoppingListEeplicit = [String]()
 shoppingListEeplicit = ["Eggs","Milk"]
 //var shoppingListExplicit: [string] = ["Eggs","Milk"]
