@@ -18,7 +18,7 @@ class ViewController: UIViewController,UITableViewDelegate{
     @IBOutlet weak var profit: UIButton!
     @IBOutlet weak var tabelview: UITableView!
     @IBAction func ActionName(sender: AnyObject) {
-        name.text = new name(" ")
+       // name.text = new name(" ")
     }
     
     @IBAction func ActionVolume(sender: AnyObject) {
@@ -29,17 +29,18 @@ class ViewController: UIViewController,UITableViewDelegate{
     }
     
     @IBAction func ActionTotal(sender: AnyObject) {
-        var sum = volume * price
-        ShowTotal.text(sum)
+        //var sum = volume * price
+        //ShowTotal.text(sum)
     }
     
     @IBAction func ActionProfit(sender: AnyObject) {
         
     }
     
-    func tableView(tableView: UITableView!, numberOfRowsInSection section:Int) ->Int{
+    /*func tableView(tableView: UITableView!, numberOfRowsInSection section:Int) ->Int{
         //return sortedKeys.count
-    }
+    
+    }*/
     
     func numberOfRowSectionInTabelView(tabelView: UITableView!) -> Int{
         return 1
