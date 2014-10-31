@@ -26,18 +26,22 @@ class ColorTwoViewController: UIViewController {
         colorlabel.text = sender.titleLabel?.text!
         if(sender.titleLabel!.text! == "Red"){
            colorlabel.backgroundColor = UIColor.redColor()
+           view.backgroundColor = UIColor.redColor()
             
         }
         else if(sender.titleLabel!.text! == "Green"){
             colorlabel.backgroundColor = UIColor.greenColor()
+            view.backgroundColor = UIColor.greenColor()
         }
         else if(sender.titleLabel!.text! == "Blue"){
             colorlabel.backgroundColor = UIColor.blueColor()
+            view.backgroundColor = UIColor.blueColor()
         }
         else{
             colorlabel.backgroundColor = UIColor.whiteColor()
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
